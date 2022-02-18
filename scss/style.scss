@@ -1,0 +1,38 @@
+// Compiladores
+
+@mixin tamaño ($ancho, $altura) {
+    width: $ancho;
+    height: $altura;
+}
+
+
+*{
+
+    font-family: 'Shippori Antique', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.body{
+
+    background-color: #868585fd;
+    a{
+        text-decoration: none;
+    }  
+    a:visited{
+        text-decoration: none;
+        color: inherit;
+        
+    } 
+    
+ }
+ 
+// import 
+
+@import "index";
+@import "presentacion";
+@import "actuales";
+@import "historicos";
+
+
