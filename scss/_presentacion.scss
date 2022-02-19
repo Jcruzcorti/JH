@@ -1,0 +1,139 @@
+// Inicio del index 
+
+
+.header1__div{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    .header1__div--img{
+        @include tamaño (220px,170px);      
+    }
+    .nav{
+
+        font-size: 24px;
+        color: #000000;
+        margin-bottom: 200px;
+        a:visited{
+            text-decoration: none;
+            color: inherit;            
+        }     
+    
+    }
+
+}
+
+
+.article1{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;   
+    .article1__h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    .article1__div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        .article1__div--1{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            
+            .article1__div--img{
+                @include tamaño (100px,100px);               
+            }
+        }
+        
+        
+        .article1__div--3{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            .article1__div--img1{
+                @include tamaño (130px,130px);
+            }
+            .article1__div--img2{
+                @include tamaño (90px,90px);
+            }
+        }
+
+    }
+
+
+
+}
+
+
+.footer{
+
+    background-color: #646464fd;
+    margin-top: 150px;
+    .footer__h3{
+        text-align: center;
+        padding-top: 15px;
+        font-weight: bold;
+    }
+  
+}
+
+.divfooter{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: center;     
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+        .divfooter__div{
+            
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;     
+            .divfooter__div--img{
+                @include tamaño(60px,55px);
+            }
+    
+            .divfooter__div--p{
+                font-size: 25px;
+                margin-bottom: 0;
+                padding-right: 10px;
+            }
+
+        }
+           
+
+}
+
+
+
+//  Inicio de grid 
+
+#grilla{
+
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "section section section"
+    "footer footer footer";
+    .header{
+        grid-area: header;
+      }
+    .section{
+        grid-area: section;
+      }
+    .footer{
+        grid-area:footer;
+      } 
+    
+}
