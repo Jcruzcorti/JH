@@ -1,0 +1,60 @@
+// Inicio del index 
+
+
+.header3__div{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    .header3__div--img{
+        @include tamaño (220px,170px);      
+    }
+    .nav{
+
+        font-size: 24px;
+        color: #000000;
+        margin-bottom: 200px;
+        a:visited{
+            text-decoration: none;
+            color: inherit;            
+        }     
+    
+    }
+
+}
+
+
+
+.article3{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    padding-bottom: 100px;
+    .article3__h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    .article3__img{   
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        @include tamaño (900px,none); 
+    }
+    .article3__img1--h4{
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .article3__img1--p{
+        margin-bottom: 50px;
+        font-size: 25px;
+        color: #000000;
+        text-align:center;               
+        
+    }
+}
