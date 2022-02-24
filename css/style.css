@@ -238,3 +238,45 @@
     font-size: 25px;
     color: #000000;
     text-align: center; }
+
+.header4__div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between; }
+  .header4__div .header4__div--img {
+    width: 220px;
+    height: 170px; }
+  .header4__div .nav {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 200px; }
+    .header4__div .nav a:visited {
+      text-decoration: none;
+      color: inherit; }
+
+.article4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 100px; }
+  .article4 .article4__h1 {
+    font-size: 60px;
+    text-align: center; }
+  .article4 .article4__img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 900px;
+    height: none; }
+  .article4 .article4__img1--h4 {
+    text-align: center;
+    text-decoration: underline; }
+  .article4 .article4__img1--p {
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: #000000;
+    text-align: center; }
