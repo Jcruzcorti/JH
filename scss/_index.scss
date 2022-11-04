@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: space-between;
     .header__div--img{
-        @include tamaño (220px,170px);      
+        @include tamaño (150px,120px);      
     }
     .nav{
 
@@ -65,7 +65,7 @@
 
 .footer{
 
-    background-color: #646464fd;
+    background-color : #646464fd;
     margin-top: 150px;
     .footer__h3{
         text-align: center;
